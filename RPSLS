@@ -9,10 +9,9 @@ Rock Paper Scissors Lizard Spock
 int main(){
 
   // Live long and prosper
+  
   srand (time(NULL));
-
   int computer = std::rand() % 5 + 1;
-
   int user = 0;
 
   std::cout << "====================\n";
